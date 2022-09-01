@@ -23,4 +23,13 @@
 
 .information p {
     margin: .5rem;
+    font-size: 1.25rem;
+}
+
+.information i {
+    width: 1rem;
+    heigth: 1rem;
+    display: inline-block;
+    margin-right: .5rem;
+    color: #9400D3;
 }
