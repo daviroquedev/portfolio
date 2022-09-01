@@ -8,9 +8,19 @@
     src: url('/src/fonts/neue-machina-regular.otf')
 }
 
+.elipse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
 body {
     background-color: #000;
-    color: #FFF
+    color: #FFF;
+    background: rgb(119,1,119);
+    background: linear-gradient(159deg, rgba(119,1,119,1) 1%, rgba(62,0,80,1) 8%, rgba(22,0,23,1) 23%, rgba(14,0,14,1) 32%, rgba(24,0,25,1) 40%, rgba(27,0,31,1) 51%, rgba(20,0,24,1) 61%, rgba(22,0,21,1) 71%, rgba(9,0,8,1) 88%, rgba(133,0,133,1) 100%);
 }
 
 .main {
@@ -18,4 +28,15 @@ body {
     padding: 1rem;
     border: 1px solid #fff;
     border-radius: .5rem;
+    
 }
+
+
+
+@media only screen and (min-width: 768px){
+   .main {
+
+   }
+
+
+ }

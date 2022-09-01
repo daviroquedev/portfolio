@@ -31,5 +31,25 @@
     heigth: 1rem;
     display: inline-block;
     margin-right: .5rem;
-    color: #9400D3;
+    color: #8B008B ;
+}
+
+
+@media only screen and (min-width: 768px){
+    .header {
+        flex-direction: row;
+        justify-content: center;
+    
+    }
+     
+    .header .photo {
+        margin-right: 40px;
+    }
+
+    .header .title {
+        text-align: start;
+        
+    }
+
+
 }
