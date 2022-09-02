@@ -34,6 +34,14 @@
     color: #8B008B ;
 }
 
+.information a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.information a:hover{
+    text-decoration: underline;
+}
 
 @media only screen and (min-width: 768px){
     .header {
