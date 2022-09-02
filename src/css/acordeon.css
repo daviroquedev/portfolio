@@ -56,11 +56,13 @@
     height: 0;
     opacity: 0;
     transition: opacity .25s ease-in-out;
+
 }
 
 .acordeon.open .content {
-    display:inline-block;
+    display: block;
     height: auto;
+    padding: 0 1rem 1rem 2rem;
     opacity: 1;
 }
 
